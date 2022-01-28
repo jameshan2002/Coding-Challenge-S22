@@ -23,15 +23,15 @@
 - [Beginner's guide of Binary Classification](https://www.analyticsvidhya.com/blog/2021/08/a-beginners-guide-to-machine-learning-binary-classification-of-legendary-pokemon-using-multiple-ml-algorithms/)
 
 ### Approach
-Before starting this challenge, I had no idea of what Machine Learning is or what binary classification was. To understand what it is, I searched "binary classification python tutorial" on youtube, and found CS Dojo's [video](https://www.youtube.com/watch?v=a9UrKTVEeZA), which helped set up the environment and learn how to use Jupiter notebook.
+Starting this challenge, I had no idea what Machine Learning and binary classification were. To understand what it is, I searched "binary classification python tutorial" on Youtube, and found CS Dojo's  [video](https://www.youtube.com/watch?v=a9UrKTVEeZA), which helped set up the environment and learn how to use Jupiter notebook.
 
 ### Analyzing Data
 After understanding how to use Jupiter notebook, I started to analyze the CSV data that will help me to understand which data can help to separate poisonous and edible mushrooms. So I graphed only the poisonous mushroom for each column and analyzed the population of each type. I discovered the Gil attachment, Gil-spacing, veil-color, ring-number, and veil-type had the largest poisonous mushroom population in each column.
 
 ### Preprocessing
-I divided it into two data, one with no info on class data but with all other attribute data, one with only class data. Then I converted all non-numerical data to numerical data using [this](https://pythonprogramming.net/working-with-non-numerical-data-machine-learning-tutorial/). And finalizing by splitting the test and ML train.
+I divided it into two data, one with no info on class data but with all other attribute data, one with only class data. Then I converted all non-numerical data to numerical data using [this](https://pythonprogramming.net/working-with-non-numerical-data-machine-learning-tutorial/). I finalized by splitting the test and ML train.
 
 ### Machine Learning and Confusion Metrix
-I used the Logistic Regression algorithm because it is widely used for binary classification. It uses the logit function for the outcome. A probability is generated in output and it is classified into 0 or 1, by using the sigmoid activation function. Using the Logistic Regression algorithm, I have achieved 97.05 % accuracy.
+I used the Logistic Regression algorithm because it is widely used for binary classification. It uses the logit function for the outcome. The probability is generated in output and it is classified into 0 or 1, by using the sigmoid activation function. Using the Logistic Regression algorithm, I have achieved 97.05 % accuracy.
 
 And looking at the confusion matrix, there were only 48 negatives from the result (21 False Negative, 28 False Positive).
