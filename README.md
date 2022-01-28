@@ -7,7 +7,7 @@
 **With the file `mushrooms.csv`, use an algorithm of your choice to classify whether a mushroom is poisonous or edible.**
 
 ## Explaination for my answer
-Liberies used
+**Liberies used**
 - pandas
 - numpy
 - Matplotlib
@@ -17,7 +17,8 @@ Liberies used
   - model_selection
   - metrics
   - linear_model
-Documentations used
+ 
+**Documentations used**
 - [Non numerical to Numerical Data](https://pythonprogramming.net/working-with-non-numerical-data-machine-learning-tutorial/)
 - [Beginner's guide of Binary Classification](https://www.analyticsvidhya.com/blog/2021/08/a-beginners-guide-to-machine-learning-binary-classification-of-legendary-pokemon-using-multiple-ml-algorithms/)
 
