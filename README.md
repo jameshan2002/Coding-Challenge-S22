@@ -32,6 +32,6 @@ After understanding how to use Jupiter notebook, I started to analyze the CSV da
 I divided it into two data, one with no info on class data but with all other attribute data, one with only class data. Then I converted all non-numerical data to numerical data using [this](https://pythonprogramming.net/working-with-non-numerical-data-machine-learning-tutorial/). I finalized by splitting the test and ML train.
 
 ### Machine Learning and Confusion Metrix
-I used the Logistic Regression algorithm because it is widely used for binary classification. It uses the logit function for the outcome. The probability is generated in output and it is classified into 0 or 1, by using the sigmoid activation function. Using the Logistic Regression algorithm, I have achieved 97.05 % accuracy.
+I used the Logistic Regression algorithm because it is widely used for binary classification. It uses the logit function for the outcome. The probability is generated in output and it is classified into 0 or 1, by using the sigmoid activation function. Using the Logistic Regression algorithm, I have achieved **97.05 %** accuracy.
 
 And looking at the confusion matrix, there were only 48 negatives from the result (21 False Negative, 28 False Positive).
